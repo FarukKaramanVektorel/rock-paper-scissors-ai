@@ -51,7 +51,7 @@ user_score = 0
 comp_score = 0
 draw_score = 0
 round_number = 1
-max_rounds = 9
+max_rounds = 20
 history = []
 
 # Q-learning parametreleri
@@ -250,5 +250,5 @@ def reset_game():
     update_history_box()
 icon = tk.PhotoImage(file="images/hbv.png")
 root.iconphoto(False, icon)
-# --- Ana döngü ---
+
 root.mainloop()

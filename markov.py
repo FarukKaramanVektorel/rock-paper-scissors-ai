@@ -16,7 +16,7 @@ user_score = 0
 comp_score = 0
 draw_score = 0
 round_number = 1
-max_rounds = 9
+max_rounds = 20
 history = []
 
 status_label = tk.Label(root, text="Seçimini yap!", font=("Arial", 14))
